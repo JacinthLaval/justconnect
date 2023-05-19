@@ -1,3 +1,5 @@
+import streamlit as st
+
 # Establish Snowflake session
 @st.cache_resource
 def create_session():
